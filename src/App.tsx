@@ -1,10 +1,17 @@
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-blue-100">
-      <h1 className="text-5xl font-bold text-blue-600">
+    <>
+      <h1 className="m-4 text-2xl font-bold text-sky-500">
         vite-react-eslint-prettier-ts-tailwind-template
       </h1>
-    </div>
+      <button
+        type="button"
+        className="primary-button m-4"
+        onClick={() => console.count("clicked")}
+      >
+        Click
+      </button>
+    </>
   );
 }
 
