@@ -1,4 +1,5 @@
 import { ErrorBoundary } from "react-error-boundary";
+import TestComponent from "./TestComponent";
 
 function Header() {
   return (
@@ -38,6 +39,7 @@ function App() {
       >
         <FaultyComponent />
       </ErrorBoundary>
+      <TestComponent />
     </div>
   );
 }
